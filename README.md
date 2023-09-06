@@ -45,7 +45,7 @@ development
 
 ```
 git clone https://github.com/esphome/esphome-webserver.git
-pnpm install
+npm install
 ```
 
 `npm run start`
@@ -76,6 +76,6 @@ web_server:
 
 serve
 =====
-`npm run server`
+`npm run serve`
 Starts a production test server on http://localhost:5001
 Events and the json api are proxied.
